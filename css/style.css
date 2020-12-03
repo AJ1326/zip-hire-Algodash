@@ -1684,3 +1684,9 @@ body .theme-button:hover {color: #fff;border-color: #fff;}
 .mt-50 {
   margin-top: 50px;
 }
+
+.footer-powered-section {
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
