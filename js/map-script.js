@@ -179,16 +179,16 @@ $(function() {
 				]
 
     // Create the map
-    var map = new google.maps.Map($('.map-canvas')[0], {
-        zoom: 14,
-        styles: mapStyle,
-        scrollwheel: false,
-        center: new google.maps.LatLng(40.72, -74)
-    });
+    // var map = new google.maps.Map($('.map-canvas')[0], {
+    //     zoom: 14,
+    //     styles: mapStyle,
+    //     scrollwheel: false,
+    //     center: new google.maps.LatLng(40.72, -74)
+    // });
 
     // Add a marker
-    var marker = new google.maps.Marker({
-        map: map,
-        position: new google.maps.LatLng(40.72, -74)
-    });
+    // var marker = new google.maps.Marker({
+    //     map: map,
+    //     position: new google.maps.LatLng(40.72, -74)
+    // });
 });
