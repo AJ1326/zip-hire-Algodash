@@ -624,8 +624,9 @@ body .theme-button:hover {color: #fff;border-color: #fff;}
 .app-screenshot .main-sldier-wrapper .screenshot-slider img {width: 100%;}
 .app-screenshot .mockup {
   position: absolute;
-  bottom: -90px;
-  left:49.9%;
+  width: 660px;
+  bottom: 59px;
+  left: 50.4%;
   transform:translateX(-50%);
   z-index: 99;
 }
@@ -907,6 +908,7 @@ body .theme-button:hover {color: #fff;border-color: #fff;}
   right: -8%;
   z-index: 1;
   transform: rotate(-30deg);
+  width: 400px;
 }
 .download-section.style-two .container .shape-one,
 .download-section.style-two .container .shape-two,
@@ -1689,4 +1691,17 @@ body .theme-button:hover {color: #fff;border-color: #fff;}
   padding: 2rem;
   width: 100%;
   text-align: center;
+}
+
+/*  Cutum add home image css */
+.wd-400 {
+  width: 400px;
+}
+
+.change-shapper {
+  position: absolute;
+  top: -24%;
+  right: -8%;
+  z-index: 1;
+  transform: rotate(-30deg);
 }
